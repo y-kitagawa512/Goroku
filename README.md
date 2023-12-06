@@ -1,6 +1,6 @@
 # Goroku
 
-### 
+### helloworld
 ```
 cd helloworld
 gcloud functions deploy go-http-function \
@@ -10,5 +10,7 @@ gcloud functions deploy go-http-function \
     --source=. \
     --entry-point HelloHTTP \
     --trigger-http \
-    --allow-unauthenticated
 ```
+
+### memo
+--allow-unauthenticated
